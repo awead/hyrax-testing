@@ -1,0 +1,9 @@
+# .solr_wrapper-hyrax
+version: 7.1.0
+port: 8983
+instance_dir: tmp/solr-development-hyrax-no-suggest
+download_dir: tmp
+collection:
+  persist: true
+  dir: solr/config-hyrax-no-suggest
+  name: hydra-development
